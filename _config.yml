@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Quan Duong"
-  avatar           : "quandb.JPG"
-  bio              : "Data Scientist and Machine Learning Engineer at Tenpoint7"
+  avatar           : "quandb.jpg"
+  bio              : "Data Scientist and Machine Learning Engineer @ Tenpoint7"
   location         : "Ho Chi Minh City, Vietnam"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   uri              :
   bitbucket        :
@@ -100,7 +100,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
