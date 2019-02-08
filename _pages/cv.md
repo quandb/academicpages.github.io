@@ -23,7 +23,7 @@ Work experience
 
 * Apr 2015 - Oct 2015: Software Engineer
   * Terralogic
-  * Duties included: Responsible for automation testing for released featured of networking devices
+  * Duties included: Responsible for automation testing for released features of networking devices
 
 * Feb 2014 - Apr 2015: Security Engineer
   * ISePRO
@@ -31,12 +31,13 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Machine Learning
+  * Ensemble Learning
+  * Feature Selection
+* Computer Networking
+* Network Security
+* Linux
 
 Publications
 ======
