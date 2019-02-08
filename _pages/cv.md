@@ -16,15 +16,18 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jun 2016 - Present: Data Scientist
+  * Tenpoint7
+  * Duties included: Responsible for building data product by applying natural language processing techniques in textual information retrieval. Work closely with Data Engineering and Full Stack Development team to deploy Machine Learning model in production
+  * Mentor: Dr. An Mai
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Apr 2015 - Oct 2015: Software Engineer
+  * Terralogic
+  * Duties included: Responsible for automation testing for released featured of networking devices
+
+* Feb 2014 - Apr 2015: Security Engineer
+  * ISePRO
+  * Duties included: Audit security level for network devices (switches, routers, firewalls)
   
 Skills
 ======
