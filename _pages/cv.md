@@ -56,5 +56,7 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+
+
 [Download resume here](http://quandb.github.io/files/quan_duong_resume.pdf)
