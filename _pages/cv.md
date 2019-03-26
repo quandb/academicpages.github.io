@@ -59,4 +59,4 @@ Teaching
 
 
 
-[*Download resume here*](http://quandb.github.io/files/quan_duong_resume.pdf)
+[**Download resume here**](http://quandb.github.io/files/quan_duong_resume.pdf)
