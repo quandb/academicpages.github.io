@@ -11,15 +11,15 @@ redirect_from:
 
 Education
 ======
-* M.S. in Computer Science, University of Science, 2019
+* M.S. in Computer Science, University of Science, 2018
 * B.S. in Computer Network and Telecommunication, University of Science, 2014
 
 Work experience
 ======
 * Jun 2016 - Present: Data Scientist
   * Tenpoint7
-  * Duties included: Responsible for building data product by applying natural language processing techniques in textual information retrieval. Work closely with Data Engineering and Full Stack Development team to deploy Machine Learning model in production
-  * Mentor: Dr. An Mai
+  * Duties included: Responsible for building data product by applying natural language processing techniques in textual information retrieval. Work with a cross-functional team of designers, researchers, engineers, and others to build new product features
+
 
 * Apr 2015 - Oct 2015: Software Engineer
   * Terralogic
@@ -51,12 +51,12 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<!-- Teaching -->
+<!-- ====== -->
+<!--   <ul>{% for post in site.teaching %} -->
+<!--     {% include archive-single-cv.html %} -->
+<!--   {% endfor %}</ul> -->
 
 
 
-[**Download resume here**](http://quandb.github.io/files/quan_duong_resume.pdf)
+[**Full resume is here**](http://quandb.github.io/files/quan_duong_resume.pdf)
