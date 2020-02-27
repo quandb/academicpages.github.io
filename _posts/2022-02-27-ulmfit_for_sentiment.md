@@ -8,10 +8,10 @@ tags:
   - Transfer Learning
   - Production
 ---
-
-Universal Language Model Fine-tuning (ULMFiT)[^1] is an effective transfer learning approach for solving variety tasks in Natural Language Processing (NLP).
+<div style="text-align: justify"> Universal Language Model Fine-tuning (ULMFiT)[^1] is an effective transfer learning approach for solving variety tasks in Natural Language Processing (NLP).
 The authors shed some light on the three common tasks of text classification: sentiment analysis, question classification, and topic classification.
-Especially, their work achieves state-of-the-art results on six text classification tasks.
+Especially, their work achieves state-of-the-art results on six text classification tasks. </div>
+
 
 ## Outline:
 * Underlying ideas of ULMFiT
