@@ -31,11 +31,11 @@ Especially, their work achieves state-of-the-art results on six text classificat
     * General domain LM pre-training (most expensive task, train once)
     * Target task LM fine-tuning
     * Target task classifier fine-tuning
-5. The second (Target task LM fine-tuning) step: converges faster as it only need to adapt to the target data, and allows to train a robust LM even for small corpus. The proposed `discriminative fine-tuning` and `slangted triangular learning rate` (STLR) for fine-tuning the LM
-    * Discriminative fine-tuning: Different layer captures different type of information is the motivation behind the discriminative fine-tuning. Instead of using the same learning rate for all layers of the model, discriminative fine-tuning allows to tune different learning rate for different layer, for context of SGD.
-    * STLR modifies the triangular learning rate with a short increase and a long decay period, which found key for good performance. Which is first linearly increases and then linearly decay its according to the predefined update schedule.
-6. Beside `discriminative fine-tuning` and STLR, they proposed `gradual unfreezing` for fine-tuning the classifier.
-Gradual Unfreezing the model at the last layer as it contains least general knowledge. They first unfreeze the last layer and then fine-tune all the un-frozen layers for each epoch. Then unfreeze the next lower layer and repeat. Until they fine-tune all layers convergence at the last iteration.
+5. <div style="text-align: justify"> The second (Target task LM fine-tuning) step: converges faster as it only need to adapt to the target data, and allows to train a robust LM even for small corpus. The proposed `discriminative fine-tuning` and `slangted triangular learning rate` (STLR) for fine-tuning the LM </div>
+    * <div style="text-align: justify"> Discriminative fine-tuning: Different layer captures different type of information is the motivation behind the discriminative fine-tuning. Instead of using the same learning rate for all layers of the model, discriminative fine-tuning allows to tune different learning rate for different layer, for context of SGD. </div>
+    * <div style="text-align: justify"> STLR modifies the triangular learning rate with a short increase and a long decay period, which found key for good performance. Which is first linearly increases and then linearly decay its according to the predefined update schedule. </div>
+6. <div style="text-align: justify"> Beside `discriminative fine-tuning` and STLR, they proposed `gradual unfreezing` for fine-tuning the classifier.
+Gradual Unfreezing the model at the last layer as it contains least general knowledge. They first unfreeze the last layer and then fine-tune all the un-frozen layers for each epoch. Then unfreeze the next lower layer and repeat. Until they fine-tune all layers convergence at the last iteration. </div>
 
 
 ## Its performance on out-domain corpus at TenPoint7
