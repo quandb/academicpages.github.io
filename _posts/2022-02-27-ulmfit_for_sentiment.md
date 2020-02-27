@@ -51,7 +51,7 @@ The modeling processes simply took the general domain `AWD-LSTM` language model 
 language model in the second step then finally trained the classifier from same public data-set that was used for the linear model.
 <!-- ![Alt text](https://quandb.github.io/images/Sentiment_Performance.png "Sentiment Performance") -->
 <p align="center">
-  <img width="460" height="300" src="https://quandb.github.io/images/Sentiment_Performance.png">
+  <img width="600" height="450" src="https://quandb.github.io/images/Sentiment_Performance.png">
 </p>
 We aim to compare the model's performance on different domain and for our internal customer corpus. Using the AUC metric for judge the model's performance in this experiment.
 The ULMFiT outperform the other benchmarks not only on the public data, but also on the other domain corpus from our clients.
