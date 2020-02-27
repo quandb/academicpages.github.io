@@ -49,7 +49,10 @@ we intent to explore this transfer learning approach. The beauty of ULMFiT is it
 they open-source the pre-trained models and code[^4] with specific example for fine-tuning on your target data-set.
 The modeling processes simply took the general domain `AWD-LSTM` language model at first and fine-tuned the
 language model in the second step then finally trained the classifier from same public data-set that was used for the linear model.
-![Alt text](https://quandb.github.io/images/Sentiment_Performance.png "Sentiment Performance")
+<!-- ![Alt text](https://quandb.github.io/images/Sentiment_Performance.png "Sentiment Performance") -->
+<p align="center">
+  <img width="460" height="300" src="https://quandb.github.io/images/Sentiment_Performance.png">
+</p>
 We aim to compare the model's performance on different domain and for our internal customer corpus. Using the AUC metric for judge the model's performance in this experiment.
 The ULMFiT outperform the other benchmarks not only on the public data, but also on the other domain corpus from our clients.
 Motivating by this outcome, we took a step to employ this approach for Sentiment prediction feature of [Addy](https://addy.ai/)(one of the TenPoint7's data products that specialize for text analytics)
