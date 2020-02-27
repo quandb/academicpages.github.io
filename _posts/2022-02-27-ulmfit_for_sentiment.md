@@ -55,8 +55,8 @@ language model in the second step then finally trained the classifier from same 
 </p>
 We aim to compare the model's performance on different domain and for our internal customer corpus. Using the AUC metric for judge the model's performance in this experiment.
 The ULMFiT outperform the other benchmarks not only on the public data, but also on the other domain corpus from our clients.
-Motivating by this outcome, we took a step to employ this approach for Sentiment prediction feature of [Addy](https://addy.ai/)(one of the TenPoint7's data products that specialize for text analytics)
-to serve Addy's users.
+Motivating by this outcome, we took a step to employ this approach for Sentiment prediction feature of Addy.ai[^5]
+where it improves the accuracy to 18% compare to the previous method for this feature.
 
 ## Production deployment
 
@@ -65,3 +65,4 @@ to serve Addy's users.
 [^2]: [pattern.en](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
 [^3]: [fast.ai](https://www.fast.ai/)
 [^4]: http://nlp.fast.ai/ulmfit
+[^5]: [Addy.ai](https://addy.ai/), TenPoint7's data product that specialize for text analytics
