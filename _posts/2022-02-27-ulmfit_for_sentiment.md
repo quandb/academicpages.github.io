@@ -21,7 +21,7 @@ Especially, their work achieves state-of-the-art results on six text classificat
 ## Underlying ideas of ULMFiT
 ![Alt text](https://quandb.github.io/images/ULMFiT_arch_fig.png "ULMFiT Architecture")
 1. ULMFiT enabled robust inductive transfer learning approach for any NLP tasks with the same 3 layers architecture
-2. ULMFiT pre-train a Language Model (LM) on large general corpus, and then fine tunes it on target task using novel technique. The model is universal in the sense that meet those practical criteria:
+2. <div style="text-align: justify">ULMFiT pre-train a Language Model (LM) on large general corpus, and then fine tunes it on target task using novel technique. The model is universal in the sense that meet those practical criteria:</div>
     * It works across tasks varying in document size, number, label type
     * Use a single architecture and training process
     * It requires no custom feature engineering or pre-processing
@@ -39,7 +39,7 @@ Gradual Unfreezing the model at the last layer as it contains least general know
 
 
 ## Its performance on out-domain corpus at TenPoint7
-At [TenPoint7](http://www.tenpoint7.com/), we provide the data consulting services and we need to continuously employ the latest research and technologies by one way or another.
+<div style="text-align: justify"> At [TenPoint7](http://www.tenpoint7.com/), we provide the data consulting services and we need to continuously employ the latest research and technologies by one way or another.
 One of those problems is the Sentiment Classification for many of our clients. They have build their own model before and wanted to improve the model performance.
 Initially, we've leveraged the lexicon-based[^2] approach to achieve the first benchmark performance.
 Afterward, the linear model with TF-IDF approach has been used to build a traditional classifier from the public data-sets.
@@ -48,15 +48,17 @@ Then one day, we heard the ULMFiT approach achieves impressive results and got a
 we intent to explore this transfer learning approach. The beauty of ULMFiT is its availability from fast.ai[^3],
 they open-source the pre-trained models and code[^4] with specific example for fine-tuning on your target data-set.
 The modeling processes simply took the general domain `AWD-LSTM` language model at first and fine-tuned the
-language model in the second step then finally trained the classifier from same public data-set that was used for the linear model.
+language model in the second step then finally trained the classifier from same public data-set that was used for the linear model. </div>
+
 <!-- ![Alt text](https://quandb.github.io/images/Sentiment_Performance.png "Sentiment Performance") -->
 <p align="center">
   <img width="600" height="450" src="https://quandb.github.io/images/Sentiment_Performance.png">
 </p>
-We aim to compare the model's performance on different domain and for our internal customer corpus. Using the AUC metric for judge the model's performance in this experiment.
+<div style="text-align: justify"> We aim to compare the model's performance on different domain and for our internal customer corpus. Using the AUC metric for judge the model's performance in this experiment.
 The ULMFiT outperform the other benchmarks not only on the public data, but also on the other domain corpus from our clients.
 Motivating by this outcome, we took a step to employ this approach for Sentiment prediction feature of Addy.ai[^5]
-where it improves the accuracy to 18% compare to the previous method for this feature.
+where it improves the accuracy to 18% compare to the previous method for this feature. </div>
+
 
 ## Production deployment
 
