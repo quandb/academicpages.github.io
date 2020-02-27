@@ -19,15 +19,16 @@ Especially, their work achieves state-of-the-art results on six text classificat
 * Production deployment
 
 ## Underlying ideas of ULMFiT
+![Alt text](https://quandb.github.io/images/ULMFiT_arch_fig.png "ULMFiT Architecture")
 1. ULMFiT enabled robust inductive transfer learning approach for any NLP tasks with the same 3 layers architecture
 2. ULMFiT pre-train a LM on large general corpus, and then fine tunes it on target task using novel technique. The model is universal in the sense that meet those practical criteria:
     * It works across tasks varying in document size, number, label type
     * Use a single architecture and training process
-    * It requires no custom feature engineering or preprocessing
+    * It requires no custom feature engineering or pre-processing
     * It does not require additional in-domain or label document
 3. The famous `AWD-LSTM`  LM was used for ULMFiT with various tuned dropout parameters.
 4. ULMFiT consists of three following steps:
-    * General domain LM pretraining (most expensive task, train once)
+    * General domain LM pre-training (most expensive task, train once)
     * Target task LM fine-tuning
     * Target task classifier fine-tuning
 5. The second (Target task LM fine-tuning) step: converges faster as it only need to adapt to the target data, and allows to train a robust LM even for small corpus. The proposed `discriminative fine-tuning` and `slangted triangular learning rate` (STLR) for fine-tuning the LM
