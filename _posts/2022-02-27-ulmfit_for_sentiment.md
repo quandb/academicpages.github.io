@@ -20,8 +20,8 @@ Especially, their work achieves state-of-the-art results on six text classificat
 </p>
 1. ULMFiT enabled robust inductive transfer learning approach for any NLP tasks with the same 3 layers architecture
 2. <div style="text-align: justify">
-        ULMFiT pre-train a Language Model (LM) on large general corpus, and then fine tunes it on target task using novel technique.
-        The model is universal in the sense that meet those practical criteria:
+    ULMFiT pre-train a Language Model (LM) on large general corpus, and then fine tunes it on target task using novel technique.
+    The model is universal in the sense that meet those practical criteria:
    </div>
     * It works across tasks varying in document size, number, label type
     * Use a single architecture and training process
@@ -44,8 +44,8 @@ Especially, their work achieves state-of-the-art results on six text classificat
             STLR modifies the triangular learning rate with a short increase and a long decay period, which found key for good performance.
             Which is first linearly increases and then linearly decay its according to the predefined update schedule.
       </div>
-<div style="text-align: justify">
-6. Beside discriminative fine-tuning and STLR, they proposed gradual unfreezing for fine-tuning the classifier.
+6. <div style="text-align: justify">
+Beside discriminative fine-tuning and STLR, they proposed gradual unfreezing for fine-tuning the classifier.
 Gradual Unfreezing the model at the last layer as it contains least general knowledge.
 They first unfreeze the last layer and then fine-tune all the un-frozen layers for each epoch.
 Then unfreeze the next lower layer and repeat. Until they fine-tune all layers convergence at the last iteration.
