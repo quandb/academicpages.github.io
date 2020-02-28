@@ -1,12 +1,11 @@
 ---
-title: 'A Transfer Learning Approach for Sentiment Classification and Production Deployment'
+title: 'Employ Transfer Learning Approach for Sentiment Classification at TenPoint7'
 date: 2020-02-27
 permalink: /posts/2020/02/ulmfit_for_sentiment/
 tags:
   - Machine Learning
   - Natural Language Processing
   - Transfer Learning
-  - Production
 ---
 <div style="text-align: justify"> Universal Language Model Fine-tuning (ULMFiT)[^1] is an effective transfer learning approach for solving variety tasks in Natural Language Processing (NLP).
 The authors shed some light on the three common tasks of text classification: sentiment analysis, question classification, and topic classification.
@@ -16,10 +15,13 @@ Especially, their work achieves state-of-the-art results on six text classificat
 ## Outline:
 * Underlying ideas of ULMFiT
 * Its performance on out domain corpus
-* Production deployment
+
 
 ## Underlying ideas of ULMFiT
-![Alt text](https://quandb.github.io/images/ULMFiT_arch_fig.png "ULMFiT Architecture")
+<!-- ![Alt text](https://quandb.github.io/images/ULMFiT_arch_fig.png "ULMFiT Architecture") -->
+<p align="center">
+  <img width="600" height="450" src="https://quandb.github.io/images/ULMFiT_arch_fig.png">
+</p>
 1. ULMFiT enabled robust inductive transfer learning approach for any NLP tasks with the same 3 layers architecture
 2. <div style="text-align: justify">ULMFiT pre-train a Language Model (LM) on large general corpus, and then fine tunes it on target task using novel technique. The model is universal in the sense that meet those practical criteria:</div>
     * It works across tasks varying in document size, number, label type
@@ -59,8 +61,6 @@ The ULMFiT outperform the other benchmarks not only on the public data, but also
 Motivating by this outcome, we took a step to employ this approach for Sentiment prediction feature of Addy.ai[^5]
 where it improves the accuracy to 18% compare to the previous method for this feature. </div>
 
-
-## Production deployment
 
 
 [^1]: Jeremy Howard and Sebastian Ruder, [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146), 2018
