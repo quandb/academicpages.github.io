@@ -27,15 +27,20 @@ Especially, their work achieves state-of-the-art results on six text classificat
     * General domain LM pre-training (most expensive task, train once)
     * Target task LM fine-tuning
     * Target task classifier fine-tuning
-5. <div style="text-align: justify"> The second (Target task LM fine-tuning) step: converges faster as it only need to adapt to the target data, and allows to train a robust LM even for small corpus. The proposed discriminative fine-tuning and slangted triangular learning rate (STLR) for fine-tuning the LM </div>
-    * <div style="text-align: justify"> Discriminative fine-tuning: Different layer captures different type of information is the motivation behind the discriminative fine-tuning. Instead of using the same learning rate for all layers of the model, discriminative fine-tuning allows to tune different learning rate for different layer, for context of SGD. </div>
+5. <div style="text-align: justify">
+    The second (Target task LM fine-tuning) step: converges faster as it only need to adapt to the target data, and allows to train a robust LM even for small corpus. The proposed discriminative fine-tuning and slangted triangular learning rate (STLR) for fine-tuning the LM
+    </div>
+    * <div style="text-align: justify">
+        Discriminative fine-tuning: Different layer captures different type of information is the motivation behind the discriminative fine-tuning. Instead of using the same learning rate for all layers of the model, discriminative fine-tuning allows to tune different learning rate for different layer, for context of SGD.
+      </div>
     * <div style="text-align: justify"> STLR modifies the triangular learning rate with a short increase and a long decay period, which found key for good performance. Which is first linearly increases and then linearly decay its according to the predefined update schedule. </div>
 6. <div style="text-align: justify"> Beside discriminative fine-tuning and STLR, they proposed gradual unfreezing for fine-tuning the classifier.
 Gradual Unfreezing the model at the last layer as it contains least general knowledge. They first unfreeze the last layer and then fine-tune all the un-frozen layers for each epoch. Then unfreeze the next lower layer and repeat. Until they fine-tune all layers convergence at the last iteration. </div>
 
 
 ## Employ ULMFiT at TenPoint7
-<div style="text-align: justify"> At [TenPoint7](http://www.tenpoint7.com/), we provide the data consulting services and we need to continuously employ the latest research and technologies by one way or another.
+<div style="text-align: justify" markdown="1">
+At [TenPoint7](http://www.tenpoint7.com/), we provide the data consulting services and we need to continuously employ the latest research and technologies by one way or another.
 One of those problems is the Sentiment Classification for many of our clients. They have build their own model before and wanted to improve the model performance.
 Initially, we've leveraged the lexicon-based[^2] approach to achieve the first benchmark performance.
 Afterward, the linear model with TF-IDF approach has been used to build a traditional classifier from the public data-sets.
@@ -44,7 +49,8 @@ Then one day, we heard the ULMFiT approach achieves impressive results and got a
 we intent to explore this transfer learning approach. The beauty of ULMFiT is its availability from fast.ai[^3],
 they open-source the pre-trained models and code[^4] with specific example for fine-tuning on your target data-set.
 The modeling processes simply took the general domain `AWD-LSTM` language model at first and fine-tuned the
-language model in the second step then finally trained the classifier from same public data-set that was used for the linear model. </div>
+language model in the second step then finally trained the classifier from same public data-set that was used for the linear model.
+</div>
 
 <!-- ![Alt text](https://quandb.github.io/images/Sentiment_Performance.png "Sentiment Performance") -->
 <p align="center">
