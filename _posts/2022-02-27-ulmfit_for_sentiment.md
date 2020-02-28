@@ -49,7 +49,7 @@ Beside discriminative fine-tuning and STLR, they proposed gradual unfreezing for
 Gradual Unfreezing the model at the last layer as it contains least general knowledge.
 They first unfreeze the last layer and then fine-tune all the un-frozen layers for each epoch.
 Then unfreeze the next lower layer and repeat. Until they fine-tune all layers convergence at the last iteration.
-</div>
+   </div>
 
 
 ## Employ ULMFiT at TenPoint7
