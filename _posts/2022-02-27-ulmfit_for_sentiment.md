@@ -7,20 +7,14 @@ tags:
   - Natural Language Processing
   - Transfer Learning
 ---
-<div style="text-align: justify"> Universal Language Model Fine-tuning (ULMFiT)[^1] is an effective transfer learning approach for solving variety tasks in Natural Language Processing (NLP).
+<div style="text-align: justify"> Universal Language Model Fine-tuning (ULMFiT)[1] is an effective transfer learning approach for solving variety tasks in Natural Language Processing (NLP).
 The authors shed some light on the three common tasks of text classification: sentiment analysis, question classification, and topic classification.
 Especially, their work achieves state-of-the-art results on six text classification tasks. </div>
-
-
-## Outline:
-* Underlying ideas of ULMFiT
-* Its performance on out domain corpus
-
 
 ## Underlying ideas of ULMFiT
 <!-- ![Alt text](https://quandb.github.io/images/ULMFiT_arch_fig.png "ULMFiT Architecture") -->
 <p align="center">
-  <img width="600" height="450" src="https://quandb.github.io/images/ULMFiT_arch_fig.png">
+  <img width="900" height="600" src="https://quandb.github.io/images/ULMFiT_arch_fig.png">
 </p>
 1. ULMFiT enabled robust inductive transfer learning approach for any NLP tasks with the same 3 layers architecture
 2. <div style="text-align: justify">ULMFiT pre-train a Language Model (LM) on large general corpus, and then fine tunes it on target task using novel technique. The model is universal in the sense that meet those practical criteria:</div>
@@ -40,7 +34,7 @@ Especially, their work achieves state-of-the-art results on six text classificat
 Gradual Unfreezing the model at the last layer as it contains least general knowledge. They first unfreeze the last layer and then fine-tune all the un-frozen layers for each epoch. Then unfreeze the next lower layer and repeat. Until they fine-tune all layers convergence at the last iteration. </div>
 
 
-## Its performance on out-domain corpus at TenPoint7
+## Employ ULMFiT at TenPoint7
 <div style="text-align: justify"> At [TenPoint7](http://www.tenpoint7.com/), we provide the data consulting services and we need to continuously employ the latest research and technologies by one way or another.
 One of those problems is the Sentiment Classification for many of our clients. They have build their own model before and wanted to improve the model performance.
 Initially, we've leveraged the lexicon-based[^2] approach to achieve the first benchmark performance.
@@ -63,7 +57,7 @@ where it improves the accuracy to 18% compare to the previous method for this fe
 
 
 
-[^1]: Jeremy Howard and Sebastian Ruder, [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146), 2018
+[1]: Jeremy Howard and Sebastian Ruder, [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146), 2018
 [^2]: [pattern.en](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
 [^3]: [fast.ai](https://www.fast.ai/)
 [^4]: http://nlp.fast.ai/ulmfit
