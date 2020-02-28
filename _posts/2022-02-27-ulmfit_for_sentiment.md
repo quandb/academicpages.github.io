@@ -70,11 +70,12 @@ language model in the second step then finally trained the classifier from same 
 <p align="center">
   <img width="600" height="450" src="https://quandb.github.io/images/Sentiment_Performance.png">
 </p>
+
 <div style="text-align: justify" markdown="1">
-    We aim to compare the model's performance on different domain and for our internal customer corpus. Using the AUC metric for judge the model's performance in this experiment.
-    The ULMFiT outperform the other benchmarks not only on the public data, but also on the other domain corpus from our clients.
-    Motivating by this outcome, we took a step to employ this approach for Sentiment prediction feature of Addy.ai[^5]
-    where it improves the accuracy to 18% compare to the previous method for this feature.
+We aim to compare the model's performance on different domain and for our internal customer corpus. Using the AUC metric for judge the model's performance in this experiment.
+The ULMFiT outperform the other benchmarks not only on the public data, but also on the other domain corpus from our clients.
+Motivating by this outcome, we took a step to employ this approach for Sentiment prediction feature of Addy.ai[^5]
+where it improves the accuracy to 18% compare to the previous method for this feature.
 </div>
 
 
