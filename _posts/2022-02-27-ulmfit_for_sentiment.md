@@ -44,8 +44,8 @@ tags:
             STLR modifies the triangular learning rate with a short increase and a long decay period, which found key for good performance.
             Which is first linearly increases and then linearly decay its according to the predefined update schedule.
       </div>
-6. <div style="text-align: justify">
-Beside discriminative fine-tuning and STLR, they proposed gradual unfreezing for fine-tuning the classifier.
+<div style="text-align: justify">
+6. Beside discriminative fine-tuning and STLR, they proposed gradual unfreezing for fine-tuning the classifier.
 Gradual Unfreezing the model at the last layer as it contains least general knowledge.
 They first unfreeze the last layer and then fine-tune all the un-frozen layers for each epoch.
 Then unfreeze the next lower layer and repeat. Until they fine-tune all layers convergence at the last iteration.
