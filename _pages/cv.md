@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-
 Education
 ======
 * M.S. in Computer Science, University of Science, 2018
@@ -65,5 +64,4 @@ Talks
 
 
 
-[**Full resume is here**](http://quandb.github.io/files/quan_duong_resume.pdf)
-{% include base_path %}
+<!-- [**Full resume is here**](http://quandb.github.io/files/quan_duong_resume.pdf) -->
