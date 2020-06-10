@@ -56,7 +56,3 @@ Talks
 <!--   <ul>{% for post in site.teaching %} -->
 <!--     {% include archive-single-cv.html %} -->
 <!--   {% endfor %}</ul> -->
-
-
-
-[**Full resume is here**](http://quandb.github.io/files/quan_duong_resume.pdf)
