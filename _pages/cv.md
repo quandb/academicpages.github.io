@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+
 Education
 ======
 * M.S. in Computer Science, University of Science, 2018
@@ -18,7 +19,7 @@ Work experience
 ======
 * Feb 2020 - Present: Technical Lead Data Scientist
   * Scommerce
-  * Duties included: Responsible for managing, supporting, and scaling the self-hosted services on Google Cloud Platform. 
+  * Duties included: Responsible for managing, supporting, and scaling the self-hosted services on Google Cloud Platform. Simplify deployment and building process to enable continuous delivery.
 
 
 * Jun 2016 - Feb 2020: Data Scientist
