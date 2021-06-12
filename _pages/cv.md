@@ -11,13 +11,15 @@ redirect_from:
 
 Education
 ======
+* Machine Learning Certificate, Cornell University, 2021
 * M.S. in Computer Science, University of Science, 2018
 * B.S. in Computer Network and Telecommunication, University of Science, 2014
 
 Work experience
 ======
-* Feb 2020 - Present: Technical Lead Data Scientist
-  * Scommerce
+
+* Feb 2020 - Present: Lead Data Scientist
+  * Scommerce/GHN
   * Duties included: Responsible for managing, supporting, and scaling the self-hosted services on Google Cloud Platform. Simplify deployment and building process to enable continuous delivery.
 
 
