@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2021-07-26-hub-and-spoke-logistics-network-design
 excerpt: 'Offer an efficient flow distribution network as a competitive strategy'
 date: 2021-07-26
-venue: 'The 34th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE 2021)'
+venue: 'The 34th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE)'
 paperurl: 'tbd'
 citation: 'Quan Duong, Dang Nguyen, Quoc Nguyen (2021). &quot;Hub and Spoke Logistics Network Design for Urban Region with Clustering-Based Approach.&quot; <i>The 34th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE)</i>.'
 ---
