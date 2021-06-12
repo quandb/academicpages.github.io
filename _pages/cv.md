@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 * Feb 2020 - Present: Lead Data Scientist
-  * Scommerce/GHN
+  * GHN (Scommerce)
   * Duties included: Responsible for managing, supporting, and scaling the self-hosted services on Google Cloud Platform. Simplify deployment and building process to enable continuous delivery.
 
 
